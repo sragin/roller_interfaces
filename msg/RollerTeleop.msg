@@ -1,0 +1,4 @@
+std_msgs/Header header
+uint8 left_duty_control
+uint8 right_duty_control
+int16 auto_spd_control
