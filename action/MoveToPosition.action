@@ -1,0 +1,10 @@
+# The desired pathes im meters and radians
+geometry_msgs/Pose2D[] path_pose
+geometry_msgs/Twist[] path_cmd_vel
+---
+# Final result
+bool result
+---
+# Current processing path im meters and radians
+geometry_msgs/Pose2D cur_pose
+geometry_msgs/Twist cur_cmd_vel
