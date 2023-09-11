@@ -1,6 +1,6 @@
 # The desired pathes im meters and radians
 geometry_msgs/Pose2D[] path_pose
-geometry_msgs/Twist[] path_cmd_vel
+geometry_msgs/Twist path_cmd_vel
 ---
 # Final result
 bool result
