@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RollerStatus.msg"
   "msg/DrumFrame.msg"
   "action/MoveToPosition.action"
+  "srv/SaveLas.srv"
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
 )
