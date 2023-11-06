@@ -19,6 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DrumFrame.msg"
   "action/MoveToPosition.action"
   "srv/SaveLas.srv"
+  "srv/DoPtsSave.srv"
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
 )
