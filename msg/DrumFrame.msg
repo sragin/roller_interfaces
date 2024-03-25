@@ -19,3 +19,8 @@ float32 lds_left_front
 float32 lds_left_back
 float32 lds_right_front
 float32 lds_right_back
+
+# Accel - IMU direct
+float32 accel_x
+float32 accel_y
+float32 accel_z
